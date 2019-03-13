@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NewPortal from './newPortal.js';
 
 import './index.less';
-export default class MyComponent extends Component{
+export default class SMLoding extends Component{
   render() {
     const { color,size } = this.props;
     const sizeStyle = {
@@ -25,7 +25,7 @@ export default class MyComponent extends Component{
     )
   }
 }
-MyComponent.defaultProps = {
+SMLoding.defaultProps = {
   size: '36',
   color: '#000'
 }
